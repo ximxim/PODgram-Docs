@@ -1,0 +1,51 @@
+# Cursor Rules for PODgram.ai Documentation
+
+## General Markdown Preferences
+
+- **ALWAYS prefer markdown syntax over HTML elements** when the same result can be achieved
+- Use markdown headers (`#`, `##`, `###`) instead of HTML `<h1>`, `<h2>`, `<h3>` tags
+- Use markdown images (`![alt text](image-url)`) instead of `<img>` tags when possible
+- Use markdown emphasis (`**bold**`, `*italic*`) instead of `<strong>` and `<em>` tags
+- Use markdown lists (`-`, `1.`) instead of `<ul>`/`<ol>` with `<li>` tags
+- Use markdown links (`[text](url)`) instead of `<a>` tags
+- Use markdown code blocks (``` or `) instead of `<code>` tags
+- Use markdown blockquotes (`>`) instead of `<blockquote>` tags
+- Use horizontal lines (`---`) instead of `<hr>` tags
+
+## Docusaurus-Specific Guidelines
+
+- For documentation files in the `docs/` directory, prioritize clean markdown
+- Use MDX components (React) only when markdown cannot achieve the desired result
+- For complex layouts requiring CSS classes, document the reason and consider if a simpler markdown alternative exists
+- When using HTML elements, add a comment explaining why markdown is insufficient
+- Use markdown frontmatter for metadata (sidebar_position, title, etc.)
+
+## Content Structure
+
+- Use descriptive headings that form a clear hierarchy
+- Add emojis to section headings for visual appeal when appropriate
+- Separate sections with horizontal lines (`---`) for better readability
+- Keep paragraphs concise and focused
+- Use consistent image alt text that describes the content
+
+## File Organization
+
+- Follow the existing Docusaurus structure outlined in `.cursor/rules/docusaurus-structure.mdc`
+- Place images in `static/img/` directory
+- Use relative paths for internal links
+- Name files using kebab-case (lowercase with hyphens)
+
+## Code Examples
+
+- Use markdown code blocks with language specification
+- Prefer markdown tables over HTML tables when data is simple
+- Use callouts and admonitions in Docusaurus format when available
+
+## When HTML is Acceptable
+
+- Complex responsive layouts that require CSS Grid or Flexbox
+- Interactive components that need JavaScript functionality  
+- Custom styling that cannot be achieved with markdown
+- Docusaurus-specific components that enhance functionality
+
+Remember: The goal is readability and maintainability. Markdown is easier to read, write, and maintain than HTML. 
