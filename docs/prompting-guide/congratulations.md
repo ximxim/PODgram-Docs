@@ -4,20 +4,19 @@ sidebar_position: 6
 
 # Congratulations!
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+You've mastered the **art of prompting with PODgram.ai** and learned how to create amazing artwork with AI!
 
-Docusaurus has **much more to offer**!
+PODgram.ai has **much more to offer**!
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+Ready to take your skills further? Explore our **[FAQ](../faq.mdx)** and **[Quick Start Guide](../quick-start-guide.mdx)** for more techniques.
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+Need help or want to share your creations? [Join our Discord community!](https://discord.gg/podgram)
 
 ## What's next?
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+- Master **advanced prompting techniques** for better results
+- Learn about **[image processing features](../welcome.mdx)** like background removal
+- Experiment with **vectorization** for scalable designs
+- Try **image analysis** to understand what makes great artwork
+- Join the PODgram.ai community to share tips and get inspired
+- Start your **print-on-demand business** with professional designs!
