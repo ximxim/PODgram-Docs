@@ -46,6 +46,8 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Hide breadcrumbs globally
+          breadcrumbs: false,
         },
         blog: {
           showReadingTime: true,
@@ -70,28 +72,48 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+
+    // Algolia search configuration
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'A1I20VWNHN', // Replace with your actual App ID
+      
+      // Public API key: it is safe to commit it
+      apiKey: '1844a0cbd0db5e75a048f9036b97af17', // Replace with your actual Search API Key
+      
+      // The name of the index
+      indexName: 'pod-designer-ai', // Replace with your actual Index Name
+      
+      // Optional: see doc section below
+      contextualSearch: true,
+      
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push
+      // externalUrlRegex: 'external\\.com|domain\\.com', // Uncomment and customize if needed
+      
+      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl
+      // replaceSearchResultPathname: {
+      //   from: '/docs/', // or as RegExp: /\/docs\//
+      //   to: '/',
+      // }, // Uncomment and customize if needed
+      
+      // Optional: Algolia search parameters
+      searchParameters: {},
+      
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+    },
     navbar: {
-      title: 'My Site',
+      title: 'PODgram.ai',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
@@ -109,29 +131,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
@@ -140,7 +141,7 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.vsDark,
     },
   } satisfies Preset.ThemeConfig,
 };
