@@ -1,0 +1,100 @@
+.imageCardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.imageCard {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  text-align: left;
+}
+
+.imageContainer {
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImage {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.promptSection {
+  margin-top: 1rem;
+}
+
+.promptLabel {
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.promptText {
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+
+/* Responsive adjustments */
+@media (min-width: 1200px) {
+  .imageCardGrid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .imageCardGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .imageCard {
+    padding: 1rem;
+  }
+
+  .cardTitle {
+    font-size: 1.1rem;
+  }
+
+  .promptText {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .imageCardGrid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .cardImage {
+    max-width: 250px;
+  }
+}
