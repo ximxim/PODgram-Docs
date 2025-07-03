@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 title: "5. Common Pitfalls & Fixes"
 hide_table_of_contents: true
 ---
@@ -300,4 +300,4 @@ Find the "just right" balance:
 
 Remember: Every "failure" is valuable feedback. Use problems as learning opportunities to refine your prompting skills!
 
-**Next**: Master [**Prompt Iteration & Refinement**](./prompt-iteration-and-refinement.md) to systematically improve your results. 
+**Next**: Master [**Prompt Iteration & Refinement**](../prompt-iteration-and-refinement.md) to systematically improve your results. 

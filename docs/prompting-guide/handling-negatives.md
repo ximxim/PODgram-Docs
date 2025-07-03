@@ -301,4 +301,4 @@ Negative: busy, chaotic, bright colors, action, movement, complexity
 
 Remember: Negative prompts are a powerful tool for precision, but they work best when combined with strong, specific positive descriptions!
 
-**Next**: Learn to avoid [**Common Pitfalls & Fixes**](./common-pitfalls-and-fixes.md) that trip up many users. 
+**Next**: Learn to avoid [**Common Pitfalls & Fixes**](./common-pitfalls-and-fixes/) that trip up many users. 

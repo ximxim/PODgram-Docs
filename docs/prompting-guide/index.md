@@ -19,7 +19,7 @@ This guide covers everything you need to know about effective prompting:
 
 ### **🛠️ Advanced Techniques**
 - **[Handling Negatives](./handling-negatives.md)** - Using negative prompts effectively
-- **[Common Pitfalls & Fixes](./common-pitfalls-and-fixes.md)** - Avoiding mistakes and troubleshooting
+- **[Common Pitfalls & Fixes](./common-pitfalls-and-fixes/)** - Avoiding mistakes and troubleshooting
 - **[Prompt Iteration & Refinement](./prompt-iteration-and-refinement.md)** - Improving your prompts over time
 
 ### **🎯 Tools & Strategies**
