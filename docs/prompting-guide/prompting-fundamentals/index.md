@@ -12,7 +12,7 @@ Master these core principles to create consistently great results with PODgram.a
 
 ## Essential Fundamentals
 
-### **[Text and Typography](./text-and-typography)**
+### **[Text and Typography](./text-and-typography.md)**
 Master PODgram.ai's exceptional text generation capabilities. Learn how to integrate text into images for t-shirt designs, logos, posters, and more. Discover techniques for font styles, text placement, and troubleshooting common text issues.
 
 ---

@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://YOUR_GITHUB_USERNAME.github.io',
+  url: 'https://ximxim.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/pod-designer-docs/',
+  baseUrl: '/podgram-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'YOUR_GITHUB_USERNAME', // Usually your GitHub org/user name.
-  projectName: 'pod-designer-docs', // Usually your repo name.
+  organizationName: 'ximxim', // Usually your GitHub org/user name.
+  projectName: 'podgram-docs', // Usually your repo name.
   
   // GitHub Pages adds a trailing slash by default that we need to customize
   trailingSlash: false,

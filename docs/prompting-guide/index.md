@@ -14,18 +14,18 @@ This guide covers everything you need to know about effective prompting:
 
 ### **📖 The Fundamentals**
 - **[What is Prompting](./what-is-prompting.md)** - Understanding the basics of AI communication
-- **[Prompting Fundamentals](./prompting-fundamentals/)** - Core principles and text/typography mastery
+- **[Prompting Fundamentals](./prompting-fundamentals/index.md)** - Core principles and text/typography mastery
 - **[Prompt Structure](./prompt-structure.md)** - How to organize your prompts for best results
 
 ### **🛠️ Advanced Techniques**
 - **[Handling Negatives](./handling-negatives.md)** - Using negative prompts effectively
-- **[Common Pitfalls & Fixes](./common-pitfalls-and-fixes/)** - Avoiding mistakes and troubleshooting
+- **[Common Pitfalls & Fixes](./common-pitfalls-and-fixes/index.md)** - Avoiding mistakes and troubleshooting
 - **[Prompt Iteration & Refinement](./prompt-iteration-and-refinement.md)** - Improving your prompts over time
 
 ### **🎯 Tools & Strategies**
 - **[Creative Tools](./creative-tools.md)** - Advanced features for better results
 - **[Troubleshooting](./troubleshooting.md)** - Solving common problems
-- **[Vocabulary Help](./vocabulary-help/)** - Descriptive language for precise control
+- **[Vocabulary Help](./vocabulary-help/index.md)** - Descriptive language for precise control
 
 ---
 

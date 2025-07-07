@@ -12,19 +12,19 @@ Expand your descriptive vocabulary for more precise and effective prompts. The r
 
 ## 🎯 Categories
 
-### **[Describing Skin Tones](./describing-skin-tones)**
+### **[Describing Skin Tones](./describing-skin-tones.md)**
 Learn appropriate and descriptive language for representing diverse skin tones and ethnicities in your artwork. Master regional descriptors and modifiers for accurate, respectful representation.
 
-### **[Describing Body Type](./describing-body-type)**  
+### **[Describing Body Type](./describing-body-type.md)**  
 Understand terminology for different body shapes and physical characteristics. Create inclusive designs that represent the full spectrum of human diversity.
 
-### **[Memory Colors for Naming Color Nuances](./memory-colors-for-naming-color-nuances)**
+### **[Memory Colors for Naming Color Nuances](./memory-colors-for-naming-color-nuances.md)**
 Discover how to use memory-based color descriptors to achieve precise color control. Learn the psychology behind color naming and how to leverage it for better prompts.
 
-### **[Angle of View and Perspective](./angle-of-view-and-perspective)**
+### **[Angle of View and Perspective](./angle-of-view-and-perspective.md)**
 Master camera angles, viewpoints, and perspective terminology. Control how your subjects are framed and presented for maximum visual impact.
 
-### **[Describing Age and Life Stage](./describing-age-and-life-stage)**
+### **[Describing Age and Life Stage](./describing-age-and-life-stage.md)**
 Navigate age-appropriate descriptors and life stage terminology. Create authentic representations across all stages of human life.
 
 ---
