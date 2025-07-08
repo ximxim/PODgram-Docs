@@ -111,3 +111,41 @@ h3 {
 [data-theme="dark"] .sidebar-category-heading {
   color: #ffffff !important;
 }
+
+/* Sidebar link styling */
+.menu__link {
+  color: #adaead !important;
+}
+
+.menu__link:hover {
+  color: #ffffff !important;
+}
+
+.menu__link--active {
+  color: #ffffff !important;
+}
+
+/* Ensure sidebar link colors work in both light and dark themes */
+[data-theme="light"] .menu__link {
+  color: #adaead !important;
+}
+
+[data-theme="light"] .menu__link:hover {
+  color: #ffffff !important;
+}
+
+[data-theme="light"] .menu__link--active {
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .menu__link {
+  color: #adaead !important;
+}
+
+[data-theme="dark"] .menu__link:hover {
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .menu__link--active {
+  color: #ffffff !important;
+}
