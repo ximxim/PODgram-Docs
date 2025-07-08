@@ -113,8 +113,8 @@ const config: Config = {
     navbar: {
       title: 'PODgram.ai',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'PODgram.ai Logo',
+        src: 'img/logo.png',
       },
       items: [],
     },
@@ -122,11 +122,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Installation',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/welcome',
+              label: 'Discord Bot',
+              href: 'https://discord.com/oauth2/authorize?client_id=1374839567907029034',
             },
           ],
         },
@@ -135,12 +135,11 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/VVFyVaRJ',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
