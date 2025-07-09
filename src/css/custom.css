@@ -115,6 +115,8 @@ h3 {
 /* Sidebar link styling */
 .menu__link {
   color: #adaead !important;
+  font-weight: 300 !important;
+  font-size: 0.875em !important;
 }
 
 .menu__link:hover {
@@ -123,11 +125,13 @@ h3 {
 
 .menu__link--active {
   color: #ffffff !important;
+  font-weight: bold !important;
 }
 
 /* Ensure sidebar link colors work in both light and dark themes */
 [data-theme="light"] .menu__link {
   color: #adaead !important;
+  font-weight: 300 !important;
 }
 
 [data-theme="light"] .menu__link:hover {
@@ -136,10 +140,12 @@ h3 {
 
 [data-theme="light"] .menu__link--active {
   color: #ffffff !important;
+  font-weight: bold !important;
 }
 
 [data-theme="dark"] .menu__link {
   color: #adaead !important;
+  font-weight: 300 !important;
 }
 
 [data-theme="dark"] .menu__link:hover {
@@ -148,4 +154,5 @@ h3 {
 
 [data-theme="dark"] .menu__link--active {
   color: #ffffff !important;
+  font-weight: bold !important;
 }
