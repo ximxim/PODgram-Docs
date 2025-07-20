@@ -107,7 +107,16 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.png',
+    image: 'img/podgram-social-card.png',
+    // Add additional metadata for better social media support
+    metadata: [
+      {name: 'keywords', content: 'PODgram, AI, Discord bot, documentation, print on demand, automation'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@podgram_ai'},
+      {name: 'twitter:creator', content: '@podgram_ai'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:site_name', content: 'PODgram.ai Documentation'},
+    ],
     navbar: {
       title: 'PODgram.ai',
       logo: {
