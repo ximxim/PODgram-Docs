@@ -75,42 +75,39 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For docs only mode, we need to set the correct route base path
+        docsRouteBasePath: "/",
+        // Index documentation pages
+        indexDocs: true,
+        // Don't index blog pages since we're in docs-only mode
+        indexBlog: false,
+        // Don't index other pages
+        indexPages: false,
+        // Language support
+        language: "en",
+        // Customize search result limits
+        searchResultLimits: 8,
+        // Highlight search terms on target page
+        highlightSearchTermsOnTargetPage: false,
+      }),
+    ],
+  ],
+
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-
-    // Algolia search configuration
-    algolia: {
-      // The application ID provided by Algolia
-      appId: 'A1I20VWNHN', // Replace with your actual App ID
-      
-      // Public API key: it is safe to commit it
-      apiKey: '1844a0cbd0db5e75a048f9036b97af17', // Replace with your actual Search API Key
-      
-      // The name of the index
-      indexName: 'pod-designer-ai', // Replace with your actual Index Name
-      
-      // Optional: see doc section below
-      contextualSearch: true,
-      
-      // Optional: Specify domains where the navigation should occur through window.location instead on history.push
-      // externalUrlRegex: 'external\\.com|domain\\.com', // Uncomment and customize if needed
-      
-      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl
-      // replaceSearchResultPathname: {
-      //   from: '/docs/', // or as RegExp: /\/docs\//
-      //   to: '/',
-      // }, // Uncomment and customize if needed
-      
-      // Optional: Algolia search parameters
-      searchParameters: {},
-      
-      // Optional: path for search page that enabled by default (`false` to disable it)
-      searchPagePath: 'search',
-    },
     navbar: {
       title: 'PODgram.ai',
       logo: {
