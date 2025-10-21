@@ -21,7 +21,7 @@ After generating images, you get clickable buttons to:
 - **Vectorize images** - Converts to high-quality format that scales perfectly
 
 **💰 Pay-As-You-Go**
-- New users get $5 in free credits to start
+- New users get $2 in free credits to start
 - Each action costs a small amount:
   - Generate images: $0.50
   - Remove background: $0.04  
