@@ -41,6 +41,14 @@ After background removal, you can perform additional actions on your transparent
 - **✨ [Vectorize](/features/vectorize)** - Convert to scalable vector format
 - **🎨 [Edit](/features/edit)** - Make further modifications
 
+---
+
+## 💰 Credit Usage
+
+Background removal costs **$0.04 per image**. Check your balance anytime using the [`/balance`](/features/balance-command) command.
+
+---
+
 ## 💡 Pro Tips
 
 :::tip Best Results
