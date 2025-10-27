@@ -65,6 +65,14 @@ After editing, you can perform additional actions on your image:
 - **🖼️ [Remove Background](/features/remove-bg)** - Create transparent PNG
 - **🎨 Edit** - Make further modifications (iterate again!)
 
+---
+
+## 💰 Credit Usage
+
+Image editing costs **$0.05 per edit**. Check your balance anytime using the [`/balance`](/features/balance-command) command.
+
+---
+
 ## 💡 Pro Tips
 
 :::tip Be Specific and Clear
