@@ -88,6 +88,14 @@ Get AI-powered recommendations for which products work best with your design:
 
 This helps you make smart decisions about where to apply your design.
 
+---
+
+## 💰 Credit Usage
+
+Image analysis costs **$0.01 per image** - the most affordable way to ensure your designs are ready for market. Check your balance anytime using the [`/balance`](/features/balance-command) command.
+
+---
+
 ## 💡 Pro Tips
 
 :::tip Analyze Before Listing
