@@ -1,5 +1,5 @@
 ---
 sidebar_position: 8
-title: "Magic Prompt"
+title: "Upload Images"
 hide_table_of_contents: true
 ---
