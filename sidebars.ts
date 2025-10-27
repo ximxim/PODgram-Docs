@@ -23,7 +23,6 @@ const sidebars: SidebarsConfig = {
     },
     'welcome',
     'quick-start-guide',
-    'faq',
     {
       type: 'category',
       label: 'Getting Started',
@@ -64,6 +63,7 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    'faq',
 
     // PLANS AND PRICING Section
     {
