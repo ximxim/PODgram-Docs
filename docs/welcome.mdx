@@ -24,53 +24,103 @@ With unique capabilities like background removal, image analysis, and vectorizat
 
 <div className="row">
   <div className="col col--4">
-    <Card shadow="md">
-      <CardImage cardImageUrl="/img/welcome/1.gif" />
-      <CardHeader textAlign="left">
-        <h3 style={{ fontSize: "1em" }}>Remove Background</h3>
-      </CardHeader>
-      <CardBody
-        textAlign="left"
-        className="padding-vert--md"
-        style={{ fontSize: "0.8em" }}
-      >
-        Instantly remove backgrounds from any image with precision. Perfect for
-        creating clean, professional designs ready for print-on-demand products.
-      </CardBody>
-    </Card>
+    <a href="/features/analyze" style={{ textDecoration: "none" }}>
+      <Card shadow="md">
+        <CardImage cardImageUrl="/img/tutorials/analyze.gif" />
+        <CardHeader textAlign="left">
+          <h3 style={{ fontSize: "1em" }}>🔍 Analyze</h3>
+        </CardHeader>
+        <CardBody
+          textAlign="left"
+          className="padding-vert--md"
+          lineClamp={3}
+          fontSize="0.8em"
+        >
+          Get comprehensive insights including copyright detection,
+          SEO-optimized titles, descriptions, and product recommendations for
+          your designs.
+        </CardBody>
+      </Card>
+    </a>
   </div>
   <div className="col col--4">
-    <Card shadow="md">
-      <CardImage cardImageUrl="/img/welcome/2.gif" />
-      <CardHeader textAlign="left">
-        <h3 style={{ fontSize: "1em" }}>Vectorize for Scalability</h3>
-      </CardHeader>
-      <CardBody
-        textAlign="left"
-        className="padding-vert--md"
-        style={{ fontSize: "0.8em" }}
-      >
-        Convert your images to scalable vector formats. Ensure your designs look
-        crisp and professional at any size, from business cards to billboards.
-      </CardBody>
-    </Card>
+    <a href="/features/edit" style={{ textDecoration: "none" }}>
+      <Card shadow="md">
+        <CardImage cardImageUrl="/img/tutorials/edit.gif" />
+        <CardHeader textAlign="left">
+          <h3 style={{ fontSize: "1em" }}>🎨 Edit</h3>
+        </CardHeader>
+        <CardBody
+          textAlign="left"
+          className="padding-vert--md"
+          lineClamp={3}
+          fontSize="0.8em"
+        >
+          Modify and refine your images using natural language prompts. Add
+          elements, change colors, or transform your design iteratively.
+        </CardBody>
+      </Card>
+    </a>
   </div>
   <div className="col col--4">
-    <Card shadow="md">
-      <CardImage cardImageUrl="/img/welcome/3.gif" />
-      <CardHeader textAlign="left">
-        <h3 style={{ fontSize: "1em" }}>Image Analysis</h3>
-      </CardHeader>
-      <CardBody
-        textAlign="left"
-        className="padding-vert--md"
-        style={{ fontSize: "0.8em" }}
-      >
-        Get detailed insights about your images including color schemes,
-        composition, and design elements. Understand what makes your visuals
-        effective.
-      </CardBody>
-    </Card>
+    <a href="/features/remove-bg" style={{ textDecoration: "none" }}>
+      <Card shadow="md">
+        <CardImage cardImageUrl="/img/tutorials/remove-bg.gif" />
+        <CardHeader textAlign="left">
+          <h3 style={{ fontSize: "1em" }}>🖼️ Remove Background</h3>
+        </CardHeader>
+        <CardBody
+          textAlign="left"
+          className="padding-vert--md"
+          lineClamp={3}
+          fontSize="0.8em"
+        >
+          Instantly remove backgrounds to create transparent PNGs perfect for
+          stickers, t-shirts, and other print-on-demand products.
+        </CardBody>
+      </Card>
+    </a>
+  </div>
+</div>
+
+<div className="row margin-top--md">
+  <div className="col col--4">
+    <a href="/features/upload-images" style={{ textDecoration: "none" }}>
+      <Card shadow="md">
+        <CardImage cardImageUrl="/img/tutorials/upload-images.gif" />
+        <CardHeader textAlign="left">
+          <h3 style={{ fontSize: "1em" }}>📤 Upload Images</h3>
+        </CardHeader>
+        <CardBody
+          textAlign="left"
+          className="padding-vert--md"
+          lineClamp={3}
+          fontSize="0.8em"
+        >
+          Upload your own existing images and use all the powerful processing
+          features including analysis, editing, and vectorization.
+        </CardBody>
+      </Card>
+    </a>
+  </div>
+  <div className="col col--4">
+    <a href="/features/vectorize" style={{ textDecoration: "none" }}>
+      <Card shadow="md">
+        <CardImage cardImageUrl="/img/tutorials/vectorize.gif" />
+        <CardHeader textAlign="left">
+          <h3 style={{ fontSize: "1em" }}>✨ Vectorize</h3>
+        </CardHeader>
+        <CardBody
+          textAlign="left"
+          className="padding-vert--md"
+          lineClamp={3}
+          fontSize="0.8em"
+        >
+          Convert your images to scalable vector formats. Ensure your designs
+          look crisp at any size, from business cards to billboards.
+        </CardBody>
+      </Card>
+    </a>
   </div>
 </div>
 

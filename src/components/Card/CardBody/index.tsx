@@ -13,6 +13,8 @@ interface CardBodyProps {
   breakWord?: boolean;
   truncate?: boolean;
   weight?: string;
+  lineClamp?: number;
+  fontSize?: string;
 }
 
 const CardBody: React.FC<CardBodyProps> = ({
@@ -27,6 +29,8 @@ const CardBody: React.FC<CardBodyProps> = ({
   breakWord = false,
   truncate = false,
   weight,
+  lineClamp,
+  fontSize,
 }) => {
   const text = textAlign ? `text--${textAlign}` : "";
   const textColor = variant ? `text--${variant}` : "";
@@ -36,6 +40,21 @@ const CardBody: React.FC<CardBodyProps> = ({
   const textBreak = breakWord ? "text--break" : "";
   const textTruncate = truncate ? "text--truncate" : "";
   const textWeight = weight ? `text--${weight}` : "";
+
+  const lineClampStyles: CSSProperties = lineClamp
+    ? {
+        display: "-webkit-box",
+        WebkitLineClamp: lineClamp,
+        WebkitBoxOrient: "vertical",
+        overflow: "hidden",
+      }
+    : {};
+
+  const contentStyle: CSSProperties = {
+    ...lineClampStyles,
+    ...(fontSize && { fontSize }),
+    margin: 0,
+  };
 
   return (
     <div
@@ -53,7 +72,7 @@ const CardBody: React.FC<CardBodyProps> = ({
       )}
       style={style}
     >
-      {children}
+      {lineClamp ? <p style={contentStyle}>{children}</p> : children}
     </div>
   );
 };
