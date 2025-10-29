@@ -16,7 +16,7 @@ export const generalUsageFaqs = [
       <>
         <p>
           Getting started is simple! First,{" "}
-          <a href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=2048&scope=bot">
+          <a href="https://discord.com/oauth2/authorize?client_id=1374839567907029034">
             invite our bot to your Discord server
           </a>{" "}
           using the invitation link. Once added, you can start generating
@@ -76,113 +76,109 @@ export const generalUsageFaqs = [
 
 export const billingFaqs = [
   {
-    question: "How do I upgrade my free account to a paid subscription plan?",
+    question: "How does PODgram.ai's credit system work?",
     answer: (
       <>
         <p>
-          Upgrading is easy! You can upgrade your account through our{" "}
-          <a href="/docs/plans">pricing page</a> or by using the{" "}
-          <code>/upgrade</code> command directly in Discord. Choose from our
-          Premium or Enterprise plans based on your needs. Payment is processed
-          securely through Stripe, and your upgraded features will be available
-          immediately after successful payment.
+          PODgram.ai uses a simple pay-as-you-go credit system with no
+          subscriptions or monthly commitments! Each service (like image
+          generation, background removal, or vectorization) costs a small amount
+          of credits per use. You simply add credits to your account when you
+          need them and use them as you create.
         </p>
         <p>
-          Need help choosing the right plan? Check out our{" "}
-          <a href="/docs/plans">Plans Comparison</a> to see which features are
-          included with each tier.
+          New users start with <strong>$2 in free credits</strong> to explore
+          all our features. After that, you can add any amount you'd like
+          whenever you need more. Check out our{" "}
+          <a href="/plans">Plans & Pricing</a> page for detailed pricing on each
+          service.
         </p>
       </>
     ),
   },
   {
-    question: "How do I cancel my subscription plan?",
-    answer: (
-      <>
-        <p>
-          You can cancel your subscription at any time through your account
-          dashboard or by contacting our <a href="/support">support team</a>.
-          When you cancel, you'll continue to have access to premium features
-          until the end of your current billing period. After that, your account
-          will automatically revert to the free tier with its associated
-          limitations.
-        </p>
-        <p>No cancellation fees apply, and you can resubscribe at any time.</p>
-      </>
-    ),
-  },
-  {
-    question:
-      "What happens to my generated content if I cancel my subscription plan?",
+    question: "Do my credits expire?",
     answer:
-      "All content you've generated remains accessible even after canceling your subscription. However, you'll lose access to premium features like advanced generation options, priority processing, and expanded usage limits. Your message history and previously generated content will remain available in your Discord server as regular Discord messages.",
+      "No! Your credits never expire. There are no monthly resets, no rollover limits, and no time pressure to use them. Add credits whenever you want and use them at your own pace. This means you have complete control over your spending with no wasted money on unused subscription time.",
   },
   {
-    question:
-      "Do my unused generation credits roll over to the next month if I don't use them?",
-    answer:
-      "Credit rollover depends on your subscription plan. Free tier credits reset monthly and do not roll over. Premium plan subscribers get partial rollover (up to 50% of unused credits), while Enterprise customers enjoy full credit rollover with no expiration. Check your plan details for specific rollover policies and limits.",
-  },
-  {
-    question:
-      "I changed my mind. Can I get a refund on my subscription payment?",
+    question: "How do I add more credits to my account?",
     answer: (
       <>
         <p>
-          We offer a 14-day money-back guarantee for all new subscriptions. If
-          you're not satisfied with your premium features, contact our{" "}
-          <a href="/support">support team</a> within 14 days of your purchase
-          for a full refund. Refunds for subsequent billing cycles are evaluated
-          on a case-by-case basis.
+          Adding credits is quick and easy! Just use the <code>/balance</code>{" "}
+          command in Discord, choose how much you'd like to add (we offer preset
+          amounts of $10, $25, and $50, plus a custom amount option), then click
+          "Pay with Stripe" to complete your secure checkout.
         </p>
         <p>
-          Please note that refunds are only available for direct subscriptions
-          and may not apply to promotional or discounted plans.
+          Once your payment is processed, you'll receive a confirmation message
+          in Discord and your credits will be available immediately. For a
+          step-by-step guide with screenshots, visit our{" "}
+          <a href="/plans">Plans & Pricing</a> page.
         </p>
       </>
     ),
   },
   {
-    question: "Where can I update my billing details and view my invoices?",
+    question: "Can I get a refund on purchased credits?",
     answer: (
       <>
         <p>
-          You can manage all your billing information through your account
-          dashboard. Access your <a href="/account/billing">billing settings</a>{" "}
-          to update payment methods, view invoice history, and manage
-          subscription details. You'll also receive email notifications for
-          successful payments and invoice receipts.
+          We offer refunds on a case-by-case basis for unused credits. If you're
+          not satisfied with PODgram.ai or made a purchase by mistake, please
+          contact our <a href="/support">support team</a> as soon as possible.
+          We're happy to help!
         </p>
         <p>
-          If you need assistance with billing, our{" "}
-          <a href="/support">support team</a> is here to help.
+          Please note that credits that have already been used for generating
+          images or other services cannot be refunded, as these represent actual
+          API costs we've incurred on your behalf.
         </p>
       </>
     ),
   },
   {
-    question:
-      "How do I avoid being double charged when upgrading my plan or changing my plan to annual billing?",
-    answer:
-      "When you upgrade or change your billing cycle, we use prorated billing to ensure you're only charged for what you use. If you upgrade mid-cycle, you'll only pay the difference for the remaining period. When switching to annual billing, any unused time from your monthly plan is credited toward your annual subscription. Our billing system automatically handles these calculations to prevent double charging.",
-  },
-  {
-    question:
-      "Why was I charged another month's subscription fee when I only wanted to subscribe for one month?",
+    question: "Where can I view my purchase history and receipts?",
     answer: (
       <>
         <p>
-          All subscriptions automatically renew to ensure uninterrupted service.
-          If you intended to subscribe for only one month, you can cancel your
-          subscription immediately after signing up - you'll still have access
-          to premium features for the full billing period you paid for, but the
-          subscription won't renew.
+          All credit purchases are processed through Stripe, and you'll receive
+          email receipts for every transaction. You can also view your payment
+          history and download invoices through your Stripe customer portal.
         </p>
         <p>
-          To avoid future charges, visit your{" "}
-          <a href="/account/billing">billing settings</a> and cancel
-          auto-renewal, or contact our <a href="/support">support team</a> for
-          assistance.
+          To check your current credit balance at any time, simply run the{" "}
+          <code>/balance</code> command in Discord. If you need help accessing
+          your receipts or have billing questions, our{" "}
+          <a href="/support">support team</a> is here to assist you.
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "What happens if I run out of credits?",
+    answer:
+      "If your credit balance reaches zero, you won't be able to use PODgram.ai's services until you add more credits. Don't worry though - all your previously generated content remains accessible in your Discord server, and your account stays active. Simply add more credits using the /balance command whenever you're ready to continue creating!",
+  },
+  {
+    question: "Are there any hidden fees or recurring charges?",
+    answer:
+      "Absolutely not! PODgram.ai has no subscriptions, no monthly fees, and no recurring charges. You only pay when you choose to add credits to your account. There are no surprise bills, no auto-renewals, and no commitments. You're always in complete control of your spending.",
+  },
+  {
+    question: "How do I check my current credit balance?",
+    answer: (
+      <>
+        <p>
+          Checking your balance is simple! Just use the <code>/balance</code>{" "}
+          command in any Discord channel where PODgram.ai is available. You'll
+          see your current credit balance displayed, along with quick buttons to
+          add more credits if needed.
+        </p>
+        <p>
+          You can check your balance as often as you like - there's no limit or
+          cost to using the <code>/balance</code> command.
         </p>
       </>
     ),
