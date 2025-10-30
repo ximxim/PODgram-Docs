@@ -75,6 +75,46 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      'docusaurus-plugin-llms',
+      {
+        // Generate both index and full content files
+        generateLLMsTxt: true,
+        generateLLMsFullTxt: true,
+        
+        // Generate individual markdown files following llmstxt.org spec
+        generateMarkdownFiles: true,
+        
+        // Clean up content for LLM consumption
+        excludeImports: true,           // Remove React component imports
+        removeDuplicateHeadings: true,  // Remove redundant headings
+        
+        // Logical content ordering
+        includeOrder: [
+          'welcome.mdx',                // Start with welcome/overview
+          'quick-start-guide.mdx',      // Then quick start
+          'features/*',                 // All feature documentation
+          'prompting-guide/**/*',       // Complete prompting guide
+          'plans.mdx',                  // Pricing plans
+          'faq.mdx',                    // FAQ
+          'support.mdx',                // Support information
+          'company.mdx',                // Company info
+          'privacy-policy.mdx',         // Legal docs
+          'terms-of-service.mdx',
+        ],
+        
+        // Path transformation - remove 'docs' prefix since routeBasePath is '/'
+        pathTransformation: {
+          ignorePaths: ['docs']
+        },
+        
+        // Output directory (default is 'build')
+        outputDir: 'build',
+      },
+    ],
+  ],
+
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
